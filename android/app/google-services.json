@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "417259488779",
+    "project_id": "wireless-project-220444",
+    "storage_bucket": "wireless-project-220444.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417259488779:android:b49dcda310ca79d3d4a90e",
+        "android_client_info": {
+          "package_name": "com.muict.yrs3.pc_portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417259488779-0kodnspp27pke3chipfjvmi7nknjj841.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnYUU7e5CAk5aGv9icNJW012xVjpubJqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417259488779-0kodnspp27pke3chipfjvmi7nknjj841.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
