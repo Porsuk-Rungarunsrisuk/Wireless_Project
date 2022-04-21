@@ -51,7 +51,14 @@ class _RecipePageState extends State<RecipePage> {
                   ),
                   onTap: () {recipe.removeItems(recipe.items[index]);},
                   title: Text("\n" + recipe.items[index].name),
-                  subtitle: Text(recipe.items[index].description),
+                  subtitle: Column(
+                      children: [
+                        Text(recipe.items[index].description),
+                        Text(recipe.items[index].price.toString() + " Baht\n",
+                          style: const TextStyle(color: Colors.black),
+                        ),
+                      ]
+                  ),
                   trailing: const Icon(Icons.delete),
                 ),
               ),
@@ -59,6 +66,11 @@ class _RecipePageState extends State<RecipePage> {
           ],
         ),
       ),
+      persistentFooterButtons: <Widget>[
+        Text("Total Price: " + recipe.totalPrice().toString() + " Baht\n",
+          style: const TextStyle(fontSize: 18),
+        ),
+      ],
     );
   }
 }

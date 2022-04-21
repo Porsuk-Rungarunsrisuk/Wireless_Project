@@ -20,4 +20,11 @@ class RecipeProvider extends ChangeNotifier {
         return items;
     }
 
+    int totalPrice () {
+        int sum = 0;
+        for (var item in items) {
+          sum += item.price;
+        }
+        return sum;
+    }
 }

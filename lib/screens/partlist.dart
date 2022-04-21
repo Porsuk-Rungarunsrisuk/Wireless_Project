@@ -19,8 +19,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"RTX3060.png",
       "description": //max 40 characters before \n
       "Ram 12 GB GDDR6\n3584 CUDA Cores\nOC Mode - 1882 MHz (Boost Clock)\nGaming Mode - 1852 MHz (Boost Clock)\n",
-      "type":
-      "Graphic Card"
+      "type": "Graphic Card",
+      "price": 10
     },
     {
       //"index":1,
@@ -28,8 +28,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"RTX3070.png",
       "description": //max 40 characters before \n
       "Ram 8 GB GDDR6\n5888 CUDA Cores\nGaming Mode - 1920 MHz (Boost Clock)\n",
-      "type":
-      "Graphic Card"
+      "type": "Graphic Card",
+      "price": 20
     },
     {
       //"index":2,
@@ -37,8 +37,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"RTX3080.png",
       "description": //max 40 characters before \n
       "Ram 10 GB GDDR6X\n8704 CUDA Cores\nGaming Mode - 1710 MHz (Boost Clock)\n",
-      "type":
-      "Graphic Card"
+      "type": "Graphic Card",
+      "price": 10
     },
     {
       //"index":3,
@@ -46,8 +46,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"12400.png",
       "description": //max 40 characters before \n
       "6C/12T (6P + 0E)\nBase Clock: 2.50 GHz\nBoost Clock: 4.40 GHz\n",
-      "type":
-      "CPU"
+      "type": "CPU",
+      "price": 10
     },
     {
       //"index":4,
@@ -55,8 +55,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"12700K.png",
       "description": //max 40 characters before \n
       "12C/20T (8P + 4E)\nBase Clock: 3.60 GHz\nBoost Clock: 5.00 GHz\n",
-      "type":
-      "CPU"
+      "type": "CPU",
+      "price": 10
     },
     {
       //"index":5,
@@ -64,8 +64,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"660.png",
       "description": //max 40 characters before \n
       "LGA1700 for Intel gen 12\nRam 4 Slots DDR4 3200+(OC)\nMicro-ATX 24.4x24.4cm\n",
-      "type":
-      "Mainboard"
+      "type": "Mainboard",
+      "price": 10
     },
     {
       //"index":6,
@@ -73,8 +73,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"690.png",
       "description": //max 40 characters before \n
       "LGA1700 for Intel gen 12 & OC supported\nRam 4 Slots DDR5 6000+(OC)\nATX 30.5x24.4cm\n",
-      "type":
-      "Mainboard"
+      "type": "Mainboard",
+      "price": 10
     },
     {
       //"index":7,
@@ -82,8 +82,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"32008.png",
       "description": //max 40 characters before \n
       "DDR4\nMemory Size: 8GB\nMemory Speed: 3200MHz\n",
-      "type":
-      "Ram"
+      "type": "Ram",
+      "price": 10
     },
     {
       //"index":8,
@@ -91,8 +91,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"48008.png",
       "description": //max 40 characters before \n
       "DDR5\nMemory Size: 8GB\nMemory Speed: 4800MHz\n",
-      "type":
-      "Ram"
+      "type": "Ram",
+      "price": 10
     },
     {
       //"index":9,
@@ -100,8 +100,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"wd2.png",
       "description": //max 40 characters before \n
       "HDD 3.5\nPort: SATA-III\nCapacity: 2 TB\nRotational Speed: 7200RPM\n",
-      "type":
-      "Storage"
+      "type": "Storage",
+      "price": 10
     },
     {
       //"index":10,
@@ -109,8 +109,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"750SE.png",
       "description": //max 40 characters before \n
       "SSD\nPort: M.2 PCIe NVMe\nCapacity: 500 GB\nRead/Write Speed: Up to 3600/2000 MB/s\n",
-      "type":
-      "Storage"
+      "type": "Storage",
+      "price": 10
     },
     {
       //"index":11,
@@ -118,8 +118,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"510.png",
       "description": //max 40 characters before \n
       "SSD\nPort: M.2 PCIe NVMe\nCapacity: 1 TB\nRead/Write Speed: Up to 3400 / 3000 MB/s\n",
-      "type":
-      "Storage"
+      "type": "Storage",
+      "price": 10
     },
     {
       //"index":12,
@@ -127,8 +127,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"750.png",
       "description": //max 40 characters before \n
       "Maximum Power: 750W\nCertificates: 80 Plus White\nModular: Yes\n",
-      "type":
-      "PSU"
+      "type": "PSU",
+      "price": 10
     },
     {
       //"index":13,
@@ -136,8 +136,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"1550.png",
       "description": //max 40 characters before \n
       "Maximum Power: 1550W\nCertificates: 80 Plus Titanium\nModular: Yes\n",
-      "type":
-      "PSU"
+      "type": "PSU",
+      "price": 10
     },
     {
       //"index":14,
@@ -145,8 +145,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"Q300L.png",
       "description": //max 40 characters before \n
       "Mainboard Support: Mini-ITX, Micro-ATX\nDimension: 230mm x 387mm x 378mm\nMax VGA Length: 360mm\n",
-      "type":
-      "Case"
+      "type": "Case",
+      "price": 10
     },
     {
       //"index":15,
@@ -154,8 +154,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"500B.png",
       "description": //max 40 characters before \n
       "Mainboard Support: Mini-ITX, Micro-ATX, ATX\nDimension: 209mm x 505mm x 499mm\nMax VGA Length: 410mm\n",
-      "type":
-      "Case"
+      "type": "Case",
+      "price": 10
     },
     {
       //"index":16,
@@ -163,8 +163,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"C2.png",
       "description": //max 40 characters before \n
       "Mainboard Support: Mini-ITX, Micro-ATX, ATX\nDimension: 368mm x 744mm x 631mm\nMax VGA Length: 400mm\n",
-      "type":
-      "Case"
+      "type": "Case",
+      "price": 10
     },
     {
       //"index":17,
@@ -172,8 +172,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"TSS2000.png",
       "description": //max 40 characters before \n
       "Type: Air Cooler\nSize: 120mm\nRGB: Yes\n",
-      "type":
-      "Cooler"
+      "type": "Cooler",
+      "price": 10
     },
     {
       //"index":18,
@@ -181,8 +181,8 @@ class _PartlistPageState extends State<PartlistPage> {
       "image":"UX200.png",
       "description": //max 40 characters before \n
       "Type: Air Cooler\nSize: 120mm\nRGB: Yes\n",
-      "type":
-      "Cooler"
+      "type": "Cooler",
+      "price": 10
     },
   ];
 
@@ -264,11 +264,19 @@ class _PartlistPageState extends State<PartlistPage> {
                         image: resultList[index]['image'],
                         description: resultList[index]['description'],
                         type: resultList[index]['type'],
+                        price: resultList[index]['price'],
                       );
                       recipe.addItems(itemModel);
                     },
                     title: Text("\n" + resultList[index]['name']),
-                    subtitle: Text(resultList[index]['description']),
+                    subtitle: Column(
+                      children: [
+                        Text(resultList[index]['description']),
+                        Text(resultList[index]['price'].toString() + " Baht\n",
+                          style: const TextStyle(color: Colors.black),
+                        ),
+                      ]
+                    ),
                     trailing: const Icon(Icons.add),
                   ),
                 ),
